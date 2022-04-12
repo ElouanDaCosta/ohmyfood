@@ -1,0 +1,15 @@
+#reservation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 18px;
+    &__title {
+        display: flex;
+        justify-content: center;
+    }
+    &__description {
+        display: flex;
+        justify-content: center;
+        margin: 0px 0 8px 0;
+    }
+}

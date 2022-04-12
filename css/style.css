@@ -1,18 +1,73 @@
-.header__logo {
-  display: flex;
-  justify-content: center;
-  margin: 16px 0 8px 0;
-}
-.header__logo img {
-  width: 40%;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap");
 title {
   display: none;
 }
 
 body {
   margin: 0;
+}
+
+.button--reservation {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background-color: #FF79DA;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  width: 50%;
+}
+
+header {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 1px;
+  height: 55px;
+  position: relative;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0 8px 0;
+}
+.header__logo img {
+  width: 40%;
+  margin-top: 16px;
+}
+
+#location {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: #f2f2f2;
+  font-size: 18px;
+  padding: 0 26px 0px 0;
+  height: 45px;
+}
+#location h6 {
+  margin: 14px 0 0 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+#location__dot {
+  display: flex;
+  align-self: center;
+  font-size: 14px;
+  margin: 0 12px 6px 0;
+}
+
+#reservation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 18px;
+}
+#reservation__title {
+  display: flex;
+  justify-content: center;
+}
+#reservation__description {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0 8px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

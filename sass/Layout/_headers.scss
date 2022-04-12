@@ -1,6 +1,12 @@
+header {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 1px;
+    height: 55px;
+    position: relative;
+}
 .header__logo {
     @include logo;
     img {
         width: 40%;
+        margin-top: 16px;
     }
 }
