@@ -2,16 +2,161 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <tittle></tittle>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <tittle>ohmyfood</tittle>
         <link>
-        <script></script>
+        <script src="https://kit.fontawesome.com/62247949ab.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
+            <div class="ohmyfood-logo">
+                <img src="asset/logo/ohmyfood.png">
+            </div>
+            <div class="header__back_button">
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
         </header>
-        <div>
-        </div>
-    <footer>
-    </footer>
+        <section class="top_picture">
+            <img src="asset/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée">
+        </section>
+        <section class="menu">
+            <section class="menu__title">
+                <h1>La note enchantée</h1>
+                <div class="menu__title--like">
+                    <i class="fa-thin fa-heart"></i>
+                </div>
+            </section>
+            <section class="menu__entries">
+                <h3>Entrées</h3>
+                <ul class="menu__entries_list">
+                    <li class="menu__entries_list--item">
+                        <div class="menu__entries_list--item-info">
+                            <h5>Ravioles de foie gras</h5>
+                            <h6>Accompagnés de leur crème à la truffe</h6>
+                        </div>
+                        <div class="menu__entries_list--item-price">
+                            <h5>25&euro;</h5>
+                        </div>
+                    </li>
+                    <li class="menu__entries_list--item">
+                        <div class="menu__entries_list--item-info">
+                            <h5>Caviar osciètre</h5>
+                            <h6>Sur blini à la farine de blé noir</h6>
+                        </div>
+                        <div class="menu__entries_list--item-price">
+                            <h5>35&euro;</h5>
+                        </div>
+                    </li>
+                    <li class="menu__entries_list--item">
+                        <div class="menu__entries_list--item-info">
+                            <h5>Homard et espuma de...</h5>
+                            <h6>Mariné aux zests d'orange</h6>
+                        </div>
+                        <div class="menu__entries_list--item-price">
+                            <h5>20&euro;</h5>
+                        </div>
+                    </li>
+                    <li class="menu__entries_list--item">
+                        <div class="menu__entries_list--item-info">
+                            <h5>Foie gras de canard cuit entier</h5>
+                            <h6>Confiture de figue et pain toasté</h6>
+                        </div>
+                        <div class="menu__entries_list--item-price">
+                            <h5>35&euro;</h5>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="menu__main_dishes">
+                <h3>Plats</h3>
+                <ul class="menu__main_dishes_list">
+                    <li class="menu__main_dishes_list--item">
+                        <div class="menu__main_dishes--item-info">
+                            <h5>Noix de coquilles Saint-jacques</h5>
+                            <h6>Sur lit de purée de céleri-rave</h6>
+                        </div>
+                        <div class="menu__main_dishes--item-price">
+                            <h5>40&euro;</h5>
+                        </div>
+                    </li>
+                    <li class="menu__main_dishes_list--item">
+                        <div class="menu__main_dishes--item-info">
+                            <h5>Langoustine poêlée</h5>
+                            <h6>Purée de patate douce</h6>
+                        </div>
+                        <div class="menu__main_dishes--item-price">
+                            <h5>35&euro;</h5>
+                        </div>
+                    </li>
+                    <li class="menu__main_dishes_list--item">
+                        <div class="menu__main_dishes--item-info">
+                            <h5>Mijoté de queue de boeuf</h5>
+                            <h6>Et riz sauvage aux zests de citron</h6>
+                        </div>
+                        <div class="menu__main_dishes--item-price">
+                            <h5>44&euro;</h5>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="menu_desserts">
+                <h3>Desserts</h3>
+                <ul class="menu__desserts_list">
+                    <li class="menu__desserts_list--item">
+                        <div class="menu__desserts--item-info">
+                            <h5>Macaron noisette et chocolat</h5>
+                            <h6>Glace au caramel brun et sel de Guérande</h6>
+                        </div>
+                        <div class="menu__desserts--item-price">
+                            <h5>18&euro;</h5>
+                        </div>
+                    </li>
+                    <li class="menu__desserts_list--item">
+                        <div class="menu__desserts--item-info">
+                            <h5>Baba au rhum revisité</h5>
+                            <h6>Avec son coulis de citron</h6>
+                        </div>
+                        <div class="menu__desserts--item-price">
+                            <h5>22&euro;</h5>
+                        </div>
+                    </li>
+                    <li class="menu__desserts_list--item">
+                        <div class="menu__desserts--item-info">
+                            <h5>Tarte au citron meringuée</h5>
+                            <h6>Destructurée</h6>
+                        </div>
+                        <div class="menu__desserts--item-price">
+                            <h5>23&euro;</h5>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="menu__order_button">
+                <button>Commander</button>
+            </section>
+        </section>
+        <footer>
+            <h5>ohmyfood</h5>
+            <ul>
+                <li>
+                    <div class="footer__icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <h5>Proposer un restaurant</h5>
+                </li>
+                <li>
+                    <div class="footer__icon">
+                        <i class="fa-solid fa-handshake-angle"></i>
+                    </div>
+                    <h5>Devenir partenaire</h5>
+                </li>
+                <li>
+                    <h5>Mentions légales</h5>
+                </li>
+                <li href="">
+                    <h5>Contact</h5>
+                </li>
+            </ul>
+        </footer>
     </body>
 </html>
