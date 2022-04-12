@@ -1,0 +1,6 @@
+.header__logo {
+    @include logo;
+    img {
+        width: 40%;
+    }
+}

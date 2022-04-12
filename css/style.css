@@ -1,0 +1,18 @@
+.header__logo {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0 8px 0;
+}
+.header__logo img {
+  width: 40%;
+}
+
+title {
+  display: none;
+}
+
+body {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
