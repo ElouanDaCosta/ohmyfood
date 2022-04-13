@@ -58,7 +58,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 18px;
+  margin-top: 0px;
+  background-color: #f8f8f8;
 }
 #reservation__title {
   display: flex;

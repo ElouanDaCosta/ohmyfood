@@ -13,10 +13,12 @@
   },
   "author": "Elouan Da Costa Peixoto",
   "license": "ISC",
-  
   "bugs": {
     "url": "https://github.com/ElouanDaCosta/projet3/issues"
   },
   "homepage": "https://github.com/ElouanDaCosta/projet3#readme",
-  "browserslist": "last 4 versions"
+  "browserslist": "last 4 versions",
+  "dependencies": {
+    "sass": "^1.50.0"
+  }
 }
