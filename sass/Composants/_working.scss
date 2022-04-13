@@ -1,10 +1,21 @@
 .working {
+    margin: 40px 0 60px 0;
     h3 {
         margin-left: 18px;
         font-size: 28px;
     }
     &__button{
         @include working__card
+    
 }
+    &__button--number_icon {
+        @include workin__card--number
+    }
+    &__button--icon {
+        @include working__card--icon
+    }
+    &__button--text {
+        @include working__card--text
+    }
 }
 
