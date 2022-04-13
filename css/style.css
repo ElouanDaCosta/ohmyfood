@@ -11,10 +11,16 @@ body {
   display: flex;
   align-self: center;
   justify-content: center;
-  background-color: #FF79DA;
+  font-family: "roboto", sans-serif;
+  margin-bottom: 46px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  background-color: #9356DC;
   color: white;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 30px 30px 30px 30px;
   width: 50%;
+  height: 45px;
 }
 
 header {
@@ -44,7 +50,7 @@ header {
 }
 #location h6 {
   margin: 14px 0 0 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 #location__dot {
@@ -60,15 +66,48 @@ header {
   justify-content: center;
   margin-top: 0px;
   background-color: #f8f8f8;
+  font-family: "roboto", sans-serif;
 }
 #reservation__title {
   display: flex;
   justify-content: center;
+  align-self: center;
+  text-align: center;
+  width: 70%;
+  margin-top: 12px;
+}
+#reservation__title h3 {
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 12px;
 }
 #reservation__description {
   display: flex;
   justify-content: center;
-  margin: 0px 0 8px 0;
+  align-self: center;
+  text-align: center;
+  margin: 0px 0 0px 0;
+  width: 100%;
+}
+#reservation__description h5 {
+  margin: 0 0 30px 0;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.working h3 {
+  margin-left: 18px;
+  font-size: 28px;
+}
+.working__button {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 15px 15px 15px 15px;
+  width: 90%;
+  margin-bottom: 16px;
+  /*box-shadow: black 12px 12px 1px 1px;*/
 }
 
 /*# sourceMappingURL=style.css.map */

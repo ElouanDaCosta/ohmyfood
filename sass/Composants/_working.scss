@@ -1,0 +1,10 @@
+.working {
+    h3 {
+        margin-left: 18px;
+        font-size: 28px;
+    }
+    &__button{
+        @include working__card
+}
+}
+

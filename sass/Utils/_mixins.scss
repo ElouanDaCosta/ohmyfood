@@ -4,9 +4,23 @@
     margin: 0px 0 8px 0;
 }
 
-@mixin button ($color: $color-secondary) {
+@mixin button ($color: $color-primary) {
+    display: flex;
+    align-items: center;
     background-color: $color;
     color: white;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 30px 30px 30px 30px;
     width: 50%;
+    height: 45px;
+}
+
+@mixin working__card {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 15px 15px 15px 15px;
+    width: 90%;
+    margin-bottom: 16px;
+    /*box-shadow: black 12px 12px 1px 1px;*/
 }
