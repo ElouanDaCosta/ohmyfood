@@ -127,3 +127,43 @@
         height: 100%;
     }
 }
+
+@mixin menu--title {
+    margin: 20px 0 20px 20px;
+    border-bottom: $color-tertiary 3px solid;
+    width: 10%;
+    h3 {
+        margin: 0;
+        font-weight: 100;
+    }
+}
+
+@mixin menu-card {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    width: 95%;
+    margin: 0 10px 10px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 90px 1px;
+}
+
+@mixin menu-card--info {
+    display: flex;
+    width: 90%;
+        flex-direction: column;
+        h5 {
+            font-size: 20px;
+            font-weight: 700;
+            margin:  12px 0 4px 12px;
+        }
+        h6 {
+            margin: 0 0 12px 12px;
+            font-size: 14px;
+            font-weight: 100;
+        }
+    }
+
+@mixin menu-card--price {
+    width: 10%;
+}

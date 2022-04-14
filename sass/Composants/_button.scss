@@ -1,9 +1,21 @@
-.button--reservation {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    font-family: 'roboto', sans-serif;
-    margin-bottom: 46px;
-    font-size: 16px;
-    @include button;
+.button {
+    &--reservation {
+        @include button;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        font-family: 'roboto', sans-serif;
+        margin-bottom: 46px;
+        font-size: 16px;
+    }
+    &--command {
+        @include button;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        font-family: 'roboto';
+        width: 40%;
+        font-size: 16px;
+    }
 }
+

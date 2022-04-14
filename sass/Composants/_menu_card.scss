@@ -1,0 +1,9 @@
+.menu__list--item {
+    @include menu-card;
+    &-info {
+        @include menu-card--info
+    }
+    &-price {
+        @include menu-card--price
+    }
+}

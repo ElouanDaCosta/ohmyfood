@@ -15,11 +15,21 @@ a {
 /*$gradient-primary: linear-gradient(135deg,$color-primary 0%,$color-secondary 100%);*/
 .button--reservation {
   display: flex;
+  align-items: center;
+  color: white;
+  background: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 30px 30px 30px 30px;
+  width: 50%;
+  height: 45px;
+  border: none;
+  display: flex;
   align-self: center;
   justify-content: center;
   font-family: "roboto", sans-serif;
   margin-bottom: 46px;
   font-size: 16px;
+}
+.button--command {
   display: flex;
   align-items: center;
   color: white;
@@ -28,6 +38,12 @@ a {
   width: 50%;
   height: 45px;
   border: none;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-family: "roboto";
+  width: 40%;
+  font-size: 16px;
 }
 
 header {
@@ -343,27 +359,80 @@ footer {
   position: relative;
   flex-direction: column;
   background-color: #f2f2f2;
-  border-radius: 40px 40px;
+  border-radius: 40px 40px 0 0;
   margin-top: 225px;
 }
+.menu ul {
+  list-style: none;
+  padding-left: 0;
+}
 
-.menu__title {
+.restaurant__title {
   display: flex;
   flex-direction: row;
   margin-top: 34px;
   align-items: baseline;
 }
-.menu__title h1 {
+.restaurant__title h1 {
   width: 85%;
   font-family: "shrikhand";
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 500;
-  margin: 0px 0 20px 20px;
+  margin: 0px 0 10px 20px;
 }
-.menu__title--like {
+.restaurant__title--like {
   display: flex;
   width: 15%;
   font-size: 26px;
+}
+
+.menu {
+  font-family: "roboto";
+}
+
+.menu__title {
+  margin: 20px 0 20px 20px;
+  border-bottom: #99E2D0 3px solid;
+  width: 10%;
+}
+.menu__title h3 {
+  margin: 0;
+  font-weight: 100;
+}
+
+.command__button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 30px 0 80px 0;
+}
+
+.menu__list--item {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  width: 95%;
+  margin: 0 10px 10px 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 90px 1px;
+}
+.menu__list--item-info {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+}
+.menu__list--item-info h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 12px 0 4px 12px;
+}
+.menu__list--item-info h6 {
+  margin: 0 0 12px 12px;
+  font-size: 14px;
+  font-weight: 100;
+}
+.menu__list--item-price {
+  width: 10%;
 }
 
 /*# sourceMappingURL=style2.css.map */
