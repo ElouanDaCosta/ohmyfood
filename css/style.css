@@ -139,27 +139,33 @@ header {
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
+  padding-bottom: 40px;
 }
 .restaurant h3 {
   font-family: "roboto";
   font-weight: 900;
   font-size: 28px;
-  margin: 60px 0 12px 18px;
+  margin: 60px 0 24px 20px;
+}
+
+.restaurant__list {
+  padding: 0;
+  margin: 0 20px 0 20px;
 }
 
 .restaurant__card {
   display: flex;
   flex-direction: column;
   border-radius: 15px 15px 15px 15px;
-  width: 90%;
+  width: 100%;
   height: 250px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 1px;
   overflow: hidden;
 }
 .restaurant__card--img {
   width: 100%;
-  height: 55%;
+  height: 54%;
 }
 .restaurant__card--img img {
   width: 100%;
@@ -168,8 +174,12 @@ header {
 }
 .restaurant__card--info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-left: 12px;
+}
+.restaurant__card--info_text {
+  flex-direction: row;
+  width: 85%;
 }
 .restaurant__card--info_text h5 {
   font-size: 18px;
@@ -182,20 +192,26 @@ header {
   font-family: "roboto";
   margin: 0 0 10px 0;
 }
+.restaurant__card--info_like {
+  display: flex;
+  align-self: center;
+  width: 15%;
+  font-size: 30px;
+}
 
 .restaurant__card--bigger {
   display: flex;
   flex-direction: column;
   border-radius: 15px 15px 15px 15px;
-  width: 90%;
+  width: 100%;
   height: 250px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 1px;
   overflow: hidden;
 }
 .restaurant__card--bigger--img {
   width: 100%;
-  height: 55%;
+  height: 54%;
 }
 .restaurant__card--bigger--img img {
   width: 100%;
@@ -204,8 +220,12 @@ header {
 }
 .restaurant__card--bigger--info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-left: 12px;
+}
+.restaurant__card--bigger--info_text {
+  flex-direction: row;
+  width: 85%;
 }
 .restaurant__card--bigger--info_text h5 {
   font-size: 18px;
@@ -218,19 +238,65 @@ header {
   font-family: "roboto";
   margin: 0 0 10px 0;
 }
+.restaurant__card--bigger--info_like {
+  display: flex;
+  align-self: center;
+  width: 15%;
+  font-size: 30px;
+}
 .restaurant__card--bigger--img {
-  height: 35%;
+  height: 32%;
 }
 
 .restaurant__card--new {
   display: flex;
   position: absolute;
-  margin: 12px 0 0 270px;
+  margin: 12px 0 0 300px;
   padding: 8px 8px;
   font-family: "roboto";
   font-size: 13px;
   background-color: #99E2D0;
   color: #278870;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #4d4d4d;
+  padding: 8px 0 14px 0px;
+  font-family: "roboto";
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 30px;
+}
+.footer__title {
+  font-family: "shrikhand";
+  font-size: 20px;
+}
+.footer__title h5 {
+  margin: 2px 0 14px 0;
+}
+.footer__icon {
+  margin-right: 8px;
+  font-size: 14px;
+}
+.footer__icon--top {
+  margin-right: 14px;
+  font-size: 14px;
+}
+.footer__element {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+.footer__element h5 {
+  margin: 6px 0 6px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
