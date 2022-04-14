@@ -4,13 +4,24 @@ header {
     display: flex;
     flex-direction: row;
     position: relative;
+
+    @media screen and (max-width: 768px) {
+        height: 90px;
+    } 
 }
+
 .header__logo {
     width: 100%;
     @include logo;
     img {
         width: 40%;
         margin-top: 16px;
+    }
+
+    @media screen and (max-width: 768px) {
+        img {
+            width: 50%;
+        }
     }
 }
 
