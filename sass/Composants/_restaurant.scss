@@ -13,3 +13,14 @@
 .restaurant__card {
     @include restaurant__card
 }
+
+.restaurant__card--bigger {
+    @include restaurant__card;
+    &--img {
+        height: 35%;
+    }
+}
+
+.restaurant__card--new {
+    @include restaurant__card--news
+}
