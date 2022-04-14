@@ -7,6 +7,12 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*$gradient-primary: linear-gradient(135deg,$color-primary 0%,$color-secondary 100%);*/
 .button--reservation {
   display: flex;
   align-self: center;
@@ -16,11 +22,12 @@ body {
   font-size: 16px;
   display: flex;
   align-items: center;
-  background-color: #9356DC;
   color: white;
+  background: linear-gradient(#FF79DA, #9356DC);
   border-radius: 30px 30px 30px 30px;
   width: 50%;
   height: 45px;
+  border: none;
 }
 
 header {
@@ -43,7 +50,7 @@ header {
   display: flex;
   justify-content: center;
   align-self: center;
-  background-color: #f2f2f2;
+  background-color: #ededed;
   font-size: 18px;
   padding: 0 26px 0px 0;
   height: 45px;
@@ -65,7 +72,7 @@ header {
   flex-direction: column;
   justify-content: center;
   margin-top: 0px;
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
   font-family: "roboto", sans-serif;
 }
 #reservation__title {
@@ -98,6 +105,10 @@ header {
 .working {
   margin: 40px 0 60px 0;
 }
+.working ul {
+  padding-left: 0;
+  margin-left: 26px;
+}
 .working h3 {
   margin-left: 18px;
   font-size: 28px;
@@ -108,13 +119,18 @@ header {
   align-items: center;
   background-color: #f2f2f2;
   border-radius: 15px 15px 15px 15px;
-  width: 90%;
+  width: 95%;
   margin-bottom: 16px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 1px;
 }
+.working__button:hover {
+  background-color: #e9ddf8;
+}
 .working__button--number_icon {
   display: flex;
+  position: relative;
   color: white;
+  transform: translateX(-10px);
   justify-content: center;
   align-items: center;
   background-color: #9356DC;
@@ -129,6 +145,9 @@ header {
   color: grey;
   font-size: 20px;
   margin-right: 20px;
+}
+.working__button--icon i:hover {
+  color: #9356DC;
 }
 .working__button--text h5 {
   font-size: 18px;

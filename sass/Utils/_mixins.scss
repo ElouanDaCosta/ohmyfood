@@ -4,14 +4,15 @@
     margin: 0px 0 8px 0;
 }
 
-@mixin button ($color: $color-primary) {
+@mixin button ($color: $color-primary){
     display: flex;
     align-items: center;
-    background-color: $color;
     color: white;
+    background: linear-gradient($color-secondary,$color-primary);
     border-radius: 30px 30px 30px 30px;
     width: 50%;
     height: 45px;
+    border: none;
 }
 
 @mixin working__card {
@@ -20,14 +21,16 @@
     align-items: center;
     background-color: #f2f2f2;
     border-radius: 15px 15px 15px 15px;
-    width: 90%;
+    width: 95%;
     margin-bottom: 16px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 1px;
 }
 
 @mixin workin__card--number {
     display: flex;
+    position: relative;
     color: white;
+    transform: translateX(-10px);
     justify-content: center;
     align-items: center;
     background-color: $color-primary;
@@ -44,7 +47,10 @@
         color: grey;
         font-size: 20px;
         margin-right: 20px;
+        &:hover {
+        color: $color-primary;
     }
+}
 }
 
 @mixin working__card--text {

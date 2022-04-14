@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 0px;
-    background-color: #f8f8f8;
+    background-color: lighten($color: #f2f2f2, $amount: 2%);
     font-family: 'roboto', sans-serif;
     &__title {
         display: flex;

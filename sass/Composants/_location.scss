@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    background-color: #f2f2f2;
+    background-color: darken($color: #f2f2f2, $amount: 2%);
     font-size: 18px;
     padding: 0 26px 0px 0;
     height: 45px;

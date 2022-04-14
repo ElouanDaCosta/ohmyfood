@@ -1,18 +1,24 @@
 .working {
+    ul {
+        padding-left: 0;
+        margin-left: 26px;
+    }
     margin: 40px 0 60px 0;
     h3 {
         margin-left: 18px;
         font-size: 28px;
     }
     &__button{
-        @include working__card
-    
+        @include working__card;
+        &:hover {
+            background-color: lighten($color: $color-primary, $amount: 32%);
+        }
 }
     &__button--number_icon {
         @include workin__card--number
     }
     &__button--icon {
-        @include working__card--icon
+        @include working__card--icon;
     }
     &__button--text {
         @include working__card--text
