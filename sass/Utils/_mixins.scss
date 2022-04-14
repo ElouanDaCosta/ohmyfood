@@ -117,3 +117,13 @@
     background-color: $color-tertiary;
     color: darken($color-tertiary, 40%);
 }
+
+@mixin top-picture {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}

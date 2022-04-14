@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-        <tittle>ohmyfood</tittle>
-        <link>
+        <title>ohmyfood</title>
+        <link href="css/style2.css" rel="stylesheet" type="text/css">
         <script src="https://kit.fontawesome.com/62247949ab.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -13,7 +13,9 @@
                 <img src="asset/logo/ohmyfood.png">
             </div>
             <div class="header__back_button">
-                <i class="fa-solid fa-arrow-left"></i>
+                <a href="index.html">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </a>
             </div>
         </header>
         <section class="top_picture">
@@ -23,7 +25,7 @@
             <section class="menu__title">
                 <h1>À la française</h1>
                 <div class="menu__title--like">
-                    <i class="fa-thin fa-heart"></i>
+                    <i class="fa-regular fa-heart"></i>
                 </div>
             </section>
             <section class="menu__entries">
@@ -127,24 +129,26 @@
             </section>
         </section>
         <footer>
-            <h5>ohmyfood</h5>
-            <ul>
-                <li>
-                    <div class="footer__icon">
+            <ul class="footer">
+                <li class="footer__title">
+                    <h5>ohmyfood</h5>
+                </li>
+                <li class="footer__element">
+                    <div class="footer__icon--top">
                         <i class="fa-solid fa-utensils"></i>
                     </div>
                     <h5>Proposer un restaurant</h5>
                 </li>
-                <li>
+                <li class="footer__element">
                     <div class="footer__icon">
                         <i class="fa-solid fa-handshake-angle"></i>
                     </div>
                     <h5>Devenir partenaire</h5>
                 </li>
-                <li>
+                <li class="footer__element">
                     <h5>Mentions légales</h5>
                 </li>
-                <li href="">
+                <li class="footer__element" href="">
                     <h5>Contact</h5>
                 </li>
             </ul>

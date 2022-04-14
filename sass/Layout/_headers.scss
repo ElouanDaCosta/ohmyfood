@@ -1,12 +1,22 @@
 header {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 1px;
     height: 55px;
+    display: flex;
+    flex-direction: row;
     position: relative;
 }
 .header__logo {
+    width: 100%;
     @include logo;
     img {
         width: 40%;
         margin-top: 16px;
     }
+}
+
+.header__back_button {
+    display: flex;
+    align-self: center;
+    padding: 10px 0 0 20px;
+    position: absolute;
 }

@@ -328,4 +328,42 @@ footer {
   margin: 6px 0 6px 0;
 }
 
-/*# sourceMappingURL=style.css.map */
+.top_picture {
+  width: 100%;
+  height: 30%;
+  position: absolute;
+}
+.top_picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  border-radius: 40px 40px;
+  margin-top: 225px;
+}
+
+.menu__title {
+  display: flex;
+  flex-direction: row;
+  margin-top: 34px;
+  align-items: baseline;
+}
+.menu__title h1 {
+  width: 85%;
+  font-family: "shrikhand";
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0px 0 20px 20px;
+}
+.menu__title--like {
+  display: flex;
+  width: 15%;
+  font-size: 26px;
+}
+
+/*# sourceMappingURL=style2.css.map */
