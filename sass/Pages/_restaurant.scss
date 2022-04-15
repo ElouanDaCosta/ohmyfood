@@ -3,6 +3,13 @@
     flex-direction: column;
     background-color: #f2f2f2;
     padding-bottom: 40px;
+
+    @media screen and (min-width: 426px) and (max-width: 768px) {
+        margin: 0px 20px 60px 20px;
+        border: #f2f2f2 solid 1px;
+        border-radius: 20px 20px 20px 20px;
+    }
+        
     h3 {
         font-family: 'roboto';
         font-weight: 900;
@@ -13,14 +20,32 @@
 
 .restaurant__list {
     padding: 0;
-    margin: 0 20px 0 20px
+    margin: 0 20px 0 20px;
+
+    @media screen and (min-width: 426px) and (max-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
 }
 
 .restaurant__card {
-    @include restaurant__card
+    @include restaurant__card;
+
+    @media screen and (min-width: 426px) and (max-width: 768px) {
+        width: 48%;
+        margin-right: 12px;
+    }
 }
 
 .restaurant__card--bigger {
+
+    @media screen and (min-width: 426px) and (max-width: 768px) {
+        width: 48%;
+        margin-right: 12px;
+    }
+
     @include restaurant__card;
     &--img {
         height: 32%;
@@ -28,5 +53,9 @@
 }
 
 .restaurant__card--new {
-    @include restaurant__card--news
+    @include restaurant__card--news;
+
+    @media screen and (min-width: 426px) and (max-width: 768px) {
+        transform: translateX(-75%);
+    }
 }

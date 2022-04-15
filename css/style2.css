@@ -28,6 +28,11 @@ a {
   margin-bottom: 46px;
   font-size: 16px;
 }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .button--reservation {
+    width: 70%;
+  }
+}
 .button--command {
   display: flex;
   align-items: center;
@@ -52,7 +57,7 @@ header {
   flex-direction: row;
   position: relative;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   header {
     height: 90px;
   }
@@ -68,7 +73,7 @@ header {
   width: 40%;
   margin-top: 16px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .header__logo img {
     width: 50%;
   }
@@ -110,6 +115,15 @@ header {
   background-color: #f7f7f7;
   font-family: "roboto", sans-serif;
 }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  #reservation {
+    width: 45%;
+    margin: 60px 20px 60px 20px;
+    border: #f2f2f2 solid 1px;
+    border-radius: 20px 20px 20px 20px;
+    justify-content: space-around;
+  }
+}
 #reservation__title {
   display: flex;
   justify-content: center;
@@ -123,6 +137,15 @@ header {
   font-size: 28px;
   margin-bottom: 12px;
 }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  #reservation__title {
+    width: 60%;
+  }
+  #reservation__title h3 {
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+}
 #reservation__description {
   display: flex;
   justify-content: center;
@@ -135,6 +158,15 @@ header {
   margin: 0 0 30px 0;
   font-weight: 100;
   font-size: 20px;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  #reservation__description {
+    width: 80%;
+  }
+  #reservation__description h5 {
+    font-size: 20px;
+    margin-bottom: 42px;
+  }
 }
 
 .working {
@@ -188,12 +220,24 @@ header {
   font-size: 18px;
   font-family: "roboto", sans-serif;
 }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .working {
+    width: 50%;
+  }
+}
 
 .restaurant {
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
   padding-bottom: 40px;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .restaurant {
+    margin: 0px 20px 60px 20px;
+    border: #f2f2f2 solid 1px;
+    border-radius: 20px 20px 20px 20px;
+  }
 }
 .restaurant h3 {
   font-family: "roboto";
@@ -205,6 +249,13 @@ header {
 .restaurant__list {
   padding: 0;
   margin: 0 20px 0 20px;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .restaurant__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .restaurant__card {
@@ -252,6 +303,12 @@ header {
   width: 15%;
   font-size: 30px;
 }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .restaurant__card {
+    width: 48%;
+    margin-right: 12px;
+  }
+}
 
 .restaurant__card--bigger {
   display: flex;
@@ -262,6 +319,12 @@ header {
   margin-bottom: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 1px;
   overflow: hidden;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .restaurant__card--bigger {
+    width: 48%;
+    margin-right: 12px;
+  }
 }
 .restaurant__card--bigger--img {
   width: 100%;
@@ -311,6 +374,11 @@ header {
   font-size: 13px;
   background-color: #99E2D0;
   color: #278870;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .restaurant__card--new {
+    transform: translateX(-75%);
+  }
 }
 
 footer {
