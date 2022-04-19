@@ -9,6 +9,10 @@
         list-style: none;
         padding-left: 0;
     }
+
+    @media screen and (min-width: 426px) and (max-width: 768px) {
+        margin-top: 370px;
+    }
 }
 
 .restaurant__title {
@@ -27,6 +31,10 @@
         display: flex;
         width: 15%;
         font-size: 26px;
+
+        @media screen and (min-width: 426px) and (max-width: 768px) {
+            transform: translateX(20%);
+        }
     }
 }
 
@@ -36,6 +44,13 @@
 
 .menu__title {
     @include menu--title;
+
+    @media screen and (min-width: 426px) and (max-width: 768px) {
+        width: 8%;
+        h3 {
+            font-size: 24px;
+        }
+    }
 }
 
 .command__button {

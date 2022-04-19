@@ -49,6 +49,11 @@ a {
   width: 40%;
   font-size: 16px;
 }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .button--command {
+    width: 25%;
+  }
+}
 
 header {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 1px;
@@ -84,6 +89,11 @@ header {
   align-self: center;
   padding: 10px 0 0 20px;
   position: absolute;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .header__back_button {
+    font-size: 30px;
+  }
 }
 
 #location {
@@ -430,6 +440,11 @@ footer {
   width: 100%;
   height: 100%;
 }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .top_picture {
+    height: 50%;
+  }
+}
 
 .menu {
   display: flex;
@@ -442,6 +457,11 @@ footer {
 .menu ul {
   list-style: none;
   padding-left: 0;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .menu {
+    margin-top: 370px;
+  }
 }
 
 .restaurant__title {
@@ -462,6 +482,11 @@ footer {
   width: 15%;
   font-size: 26px;
 }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .restaurant__title--like {
+    transform: translateX(20%);
+  }
+}
 
 .menu {
   font-family: "roboto";
@@ -475,6 +500,14 @@ footer {
 .menu__title h3 {
   margin: 0;
   font-weight: 100;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .menu__title {
+    width: 8%;
+  }
+  .menu__title h3 {
+    font-size: 24px;
+  }
 }
 
 .command__button {

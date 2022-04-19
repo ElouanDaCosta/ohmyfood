@@ -30,4 +30,8 @@ header {
     align-self: center;
     padding: 10px 0 0 20px;
     position: absolute;
+
+    @media screen and (min-width: 426px) and (max-width: 768px) {
+        font-size: 30px;
+    }
 }
