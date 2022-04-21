@@ -34,21 +34,31 @@
     @include restaurant__card;
 
     @media screen and (min-width: 426px) and (max-width: 768px) {
-        width: 48%;
-        margin-right: 12px;
+        width: calc(50% - 12px);
+        margin-right: 6px;
+        margin-left: 6px;
+
+        &--img {
+            height: 60%;
+        }
     }
 }
 
 .restaurant__card--bigger {
 
     @media screen and (min-width: 426px) and (max-width: 768px) {
-        width: 48%;
-        margin-right: 12px;
+        width: calc(50% - 12px);
+        margin-right: 6px;
+        margin-left: 6px;
     }
 
     @include restaurant__card;
     &--img {
         height: 32%;
+
+        @media screen and (min-width: 426px) and (max-width: 768px) {
+            height: 36%;
+        }
     }
 }
 
@@ -56,6 +66,12 @@
     @include restaurant__card--news;
 
     @media screen and (min-width: 426px) and (max-width: 768px) {
-        transform: translateX(-75%);
+    }
+}
+
+.restaurant__card--new--bigger {
+    @include restaurant__card--news;
+
+    @media screen and (min-width: 426px) and (max-width: 768px) {
     }
 }

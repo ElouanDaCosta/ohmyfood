@@ -5,3 +5,15 @@
         height: 50%;
     }
 }
+
+.top_picture--bigger {
+    @include top_picture;
+
+    @media screen and (min-width: 426px) and (max-width: 768px) {
+        height: 60%;
+        img {
+            height: 95%;
+            object-fit: cover;
+        }
+    }
+}
