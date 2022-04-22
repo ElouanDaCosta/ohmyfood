@@ -1,15 +1,19 @@
 .top_picture {
     @include top_picture;
 
-    @media screen and (min-width: 426px) and (max-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
         height: 50%;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1440px) {
+        height: 60%;
     }
 }
 
 .top_picture--bigger {
     @include top_picture;
 
-    @media screen and (min-width: 426px) and (max-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
         height: 60%;
         img {
             height: 95%;

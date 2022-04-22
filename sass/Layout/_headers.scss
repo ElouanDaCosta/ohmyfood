@@ -5,9 +5,13 @@ header {
     flex-direction: row;
     position: relative;
 
-    @media screen and (min-width: 426px) and (max-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
         height: 90px;
-    } 
+    }
+    
+    @media screen and (min-width: 992px) and (max-width: 1440px) {
+        height: 135px;
+    }
 }
 
 .header__logo {
@@ -18,9 +22,15 @@ header {
         margin-top: 16px;
     }
 
-    @media screen and (min-width: 426px) and (max-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
         img {
             width: 50%;
+        }
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1440px) {
+        img {
+            width: 55%;
         }
     }
 }
@@ -31,7 +41,13 @@ header {
     padding: 10px 0 0 20px;
     position: absolute;
 
-    @media screen and (min-width: 426px) and (max-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
         font-size: 30px;
+        padding-left: 30px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1440px) {
+        font-size: 40px;
+        padding-left: 50px;
     }
 }

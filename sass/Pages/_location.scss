@@ -17,4 +17,17 @@
         font-size: 14px;
         margin:0 12px 6px 0;
     }
+
+    @media screen and (min-width: 992px) and (max-width: 1440px) {
+        height: 75px;
+        h6 {
+            margin-top: 28px;
+            font-size: 20px;
+        }
+
+        &__dot {
+            font-size: 18px;
+        }
+    }
+        
 }

@@ -28,9 +28,15 @@ a {
   margin-bottom: 46px;
   font-size: 16px;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .button--reservation {
     width: 70%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .button--reservation {
+    font-size: 23px;
+    height: 60px;
   }
 }
 .button--command {
@@ -49,7 +55,12 @@ a {
   width: 40%;
   font-size: 16px;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .button--command {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
   .button--command {
     width: 25%;
   }
@@ -62,9 +73,14 @@ header {
   flex-direction: row;
   position: relative;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   header {
     height: 90px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  header {
+    height: 135px;
   }
 }
 
@@ -78,9 +94,14 @@ header {
   width: 40%;
   margin-top: 16px;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .header__logo img {
     width: 50%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .header__logo img {
+    width: 55%;
   }
 }
 
@@ -90,9 +111,16 @@ header {
   padding: 10px 0 0 20px;
   position: absolute;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .header__back_button {
     font-size: 30px;
+    padding-left: 30px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .header__back_button {
+    font-size: 40px;
+    padding-left: 50px;
   }
 }
 
@@ -116,6 +144,18 @@ header {
   font-size: 14px;
   margin: 0 12px 6px 0;
 }
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  #location {
+    height: 75px;
+  }
+  #location h6 {
+    margin-top: 28px;
+    font-size: 20px;
+  }
+  #location__dot {
+    font-size: 18px;
+  }
+}
 
 #reservation {
   display: flex;
@@ -125,10 +165,19 @@ header {
   background-color: #f7f7f7;
   font-family: "roboto", sans-serif;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   #reservation {
     width: 45%;
     margin: 60px 20px 60px 20px;
+    border: #f2f2f2 solid 1px;
+    border-radius: 20px 20px 20px 20px;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  #reservation {
+    width: 50%;
+    margin: 30px 20px 30px 20px;
     border: #f2f2f2 solid 1px;
     border-radius: 20px 20px 20px 20px;
     justify-content: space-around;
@@ -147,13 +196,23 @@ header {
   font-size: 28px;
   margin-bottom: 12px;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   #reservation__title {
     width: 60%;
   }
   #reservation__title h3 {
     margin-top: 0;
     margin-bottom: 24px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  #reservation__title {
+    width: 60%;
+  }
+  #reservation__title h3 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 34px;
   }
 }
 #reservation__description {
@@ -169,12 +228,21 @@ header {
   font-weight: 100;
   font-size: 20px;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   #reservation__description {
     width: 80%;
   }
   #reservation__description h5 {
     font-size: 20px;
+    margin-bottom: 42px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  #reservation__description {
+    width: 80%;
+  }
+  #reservation__description h5 {
+    font-size: 25px;
     margin-bottom: 42px;
   }
 }
@@ -230,9 +298,20 @@ header {
   font-size: 18px;
   font-family: "roboto", sans-serif;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .working {
     width: 50%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .working {
+    width: 50%;
+  }
+  .working h3 {
+    font-size: 36px;
+  }
+  .working h5 {
+    font-size: 24px;
   }
 }
 
@@ -242,9 +321,17 @@ header {
   background-color: #f2f2f2;
   padding-bottom: 40px;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant {
     margin: 0px 20px 60px 20px;
+    border: #f2f2f2 solid 1px;
+    border-radius: 20px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .restaurant {
+    flex-direction: column;
+    margin: 0px 20px 30px 20px;
     border: #f2f2f2 solid 1px;
     border-radius: 20px 20px 20px 20px;
   }
@@ -260,11 +347,18 @@ header {
   padding: 0;
   margin: 0 20px 0 20px;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .restaurant__list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
   }
 }
 
@@ -282,6 +376,7 @@ header {
 .restaurant__card--img {
   width: 100%;
   height: 54%;
+  overflow: hidden;
 }
 .restaurant__card--img img {
   width: 100%;
@@ -315,7 +410,17 @@ header {
   width: 20%;
   font-size: 30px;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .restaurant__card {
+    width: calc(50% - 12px);
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+  .restaurant__card--img {
+    height: 60%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
   .restaurant__card {
     width: calc(50% - 12px);
     margin-right: 6px;
@@ -337,7 +442,14 @@ header {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 1px;
   overflow: hidden;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .restaurant__card--bigger {
+    width: calc(50% - 12px);
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
   .restaurant__card--bigger {
     width: calc(50% - 12px);
     margin-right: 6px;
@@ -347,6 +459,7 @@ header {
 .restaurant__card--bigger--img {
   width: 100%;
   height: 54%;
+  overflow: hidden;
 }
 .restaurant__card--bigger--img img {
   width: 100%;
@@ -383,7 +496,7 @@ header {
 .restaurant__card--bigger--img {
   height: 32%;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
   .restaurant__card--bigger--img {
     height: 36%;
   }
@@ -461,9 +574,14 @@ footer {
   height: 100%;
   object-fit: cover;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .top_picture {
     height: 50%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .top_picture {
+    height: 60%;
   }
 }
 
@@ -477,7 +595,7 @@ footer {
   height: 100%;
   object-fit: cover;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .top_picture--bigger {
     height: 60%;
   }
@@ -499,9 +617,25 @@ footer {
   list-style: none;
   padding-left: 0;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .menu {
     margin-top: 380px;
+    border-radius: 60px 60px 0 0;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .menu {
+    margin-top: 620px;
+    border-radius: 60px 60px 0 0;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .menu__list--list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
@@ -518,14 +652,33 @@ footer {
   font-weight: 500;
   margin: 0px 0 10px 20px;
 }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .restaurant__title h1 {
+    font-size: 34px;
+    margin: 0px 0 10px 20px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .restaurant__title h1 {
+    font-size: 40px;
+    margin: 0px 0 10px 40px;
+  }
+}
 .restaurant__title--like {
   display: flex;
   width: 15%;
   font-size: 26px;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__title--like {
-    transform: translateX(20%);
+    justify-content: center;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .restaurant__title--like {
+    justify-content: center;
+    font-size: 36px;
   }
 }
 
@@ -542,12 +695,20 @@ footer {
   margin: 0;
   font-weight: 100;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .menu__title {
     width: 8%;
   }
   .menu__title h3 {
     font-size: 24px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .menu__title {
+    width: 22%;
+  }
+  .menu__title h3 {
+    font-size: 26px;
   }
 }
 
@@ -584,6 +745,15 @@ footer {
 }
 .menu__list--item-price {
   width: 10%;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .menu__list--item-price {
+    font-size: 20px;
+  }
+  .menu__list--item-price h5 {
+    margin-top: 34px;
+    margin-bottom: 10px;
+  }
 }
 
 /*# sourceMappingURL=style2.css.map */

@@ -4,8 +4,15 @@
     background-color: #f2f2f2;
     padding-bottom: 40px;
 
-    @media screen and (min-width: 426px) and (max-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
         margin: 0px 20px 60px 20px;
+        border: #f2f2f2 solid 1px;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1440px) {
+        flex-direction: column;
+        margin: 0px 20px 30px 20px;
         border: #f2f2f2 solid 1px;
         border-radius: 20px 20px 20px 20px;
     }
@@ -22,10 +29,16 @@
     padding: 0;
     margin: 0 20px 0 20px;
 
-    @media screen and (min-width: 426px) and (max-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1440px) {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
     }
 
 }
@@ -33,7 +46,17 @@
 .restaurant__card {
     @include restaurant__card;
 
-    @media screen and (min-width: 426px) and (max-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        width: calc(50% - 12px);
+        margin-right: 6px;
+        margin-left: 6px;
+
+        &--img {
+            height: 60%;
+        }
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1440px) {
         width: calc(50% - 12px);
         margin-right: 6px;
         margin-left: 6px;
@@ -46,7 +69,13 @@
 
 .restaurant__card--bigger {
 
-    @media screen and (min-width: 426px) and (max-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        width: calc(50% - 12px);
+        margin-right: 6px;
+        margin-left: 6px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1440px) {
         width: calc(50% - 12px);
         margin-right: 6px;
         margin-left: 6px;
@@ -56,7 +85,7 @@
     &--img {
         height: 32%;
 
-        @media screen and (min-width: 426px) and (max-width: 768px) {
+        @media screen and (min-width: 768px) and (max-width: 1440px) {
             height: 36%;
         }
     }
@@ -65,13 +94,13 @@
 .restaurant__card--new {
     @include restaurant__card--news;
 
-    @media screen and (min-width: 426px) and (max-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
     }
 }
 
 .restaurant__card--new--bigger {
     @include restaurant__card--news;
 
-    @media screen and (min-width: 426px) and (max-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
     }
 }
