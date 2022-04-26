@@ -671,6 +671,9 @@ footer {
   width: 15%;
   font-size: 26px;
 }
+.restaurant__title--like i:hover {
+  animation: fadeIn 1s ease-in-out;
+}
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__title--like {
     justify-content: center;
@@ -684,6 +687,15 @@ footer {
   }
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    background-color: #9356DC;
+  }
+}
 .menu {
   font-family: "roboto";
 }
@@ -1280,7 +1292,7 @@ footer {
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
