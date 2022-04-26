@@ -15,7 +15,9 @@ a {
 .loading__spinner {
   width: 100%;
   height: 100%;
-  position: absolute;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
