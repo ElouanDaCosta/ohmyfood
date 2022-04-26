@@ -271,6 +271,7 @@ header {
 }
 .working__button:hover {
   background-color: #e9ddf8;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 1px;
 }
 .working__button--number_icon {
   display: flex;

@@ -1,0 +1,52 @@
+.loading__spinner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+    opacity: 0;
+    animation: transition 3s cubic-bezier(1,-0.29,1,-0.89);
+    .spinner {
+        position: absolute;
+        visibility: hidden;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        box-sizing: border-box;
+        border-top : 2px solid $color-primary;
+        border-right: 2px solid lighten($color: $color-primary, $amount: 30%);
+        border-left: 2px solid lighten($color: $color-primary, $amount: 30%);
+        border-bottom: 2px solid lighten($color: $color-primary, $amount: 30%);
+        animation: spinner 3s linear forwards;
+    }
+}
+
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes transition {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
