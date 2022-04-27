@@ -72,7 +72,7 @@
     overflow: hidden;
     &--img {
         width: 100%;
-        height: 54%;
+        height: 70%;
         overflow: hidden;
         
         img {
@@ -85,6 +85,8 @@
         display: flex;
         flex-direction: row;
         margin-left: 12px;
+        height: 30%;
+        width: 100%;
         &_text {
             flex-direction: row;
             width: 80%;
@@ -105,6 +107,7 @@
             align-self: center;
             justify-content: center;
             width: 20%;
+            height: 50%;
             font-size: 30px;
         }
     }

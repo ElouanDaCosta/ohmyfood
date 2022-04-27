@@ -65,6 +65,7 @@
         i {
             &:hover {
                 animation: fadeIn 1s ease-in-out;
+                
             }
         }
 
@@ -81,10 +82,15 @@
 }
 
 @keyframes fadeIn {
-    from {
+    0% {
         opacity: 0;
     }
-    to {
+    80% {
+        fill: $color-primary;
+        opacity: 1;
+    }
+
+    100% {
         opacity: 1;
         background-color: $color-primary;
     }

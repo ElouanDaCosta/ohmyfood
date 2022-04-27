@@ -1,5 +1,5 @@
 .menu__list--item {
-    animation: menu__loading 3s linear;
+    animation: menu__loading 3s linear forwards;
     @for $i from 1 through $num-menu--items {
         &-#{$i} {
             @include menu-card;
@@ -25,8 +25,9 @@
             }
         }
         }
-        animation: menu__item 1s ease-out;
+        animation: menu__item 1s ease-out forwards;
         animation-delay: calc($anim-dur / $num-menu--items * $i);
+        opacity: 0;
         }
     }
 }

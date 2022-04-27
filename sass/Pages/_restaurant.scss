@@ -23,6 +23,15 @@
         font-size: 28px;
         margin: 60px 0 24px 20px;
     }
+
+}
+
+.restaurant__card > a {
+    height: 100%;
+}
+
+.restaurant__card--bigger > a {
+    height: 100%;
 }
 
 .restaurant__list {
@@ -50,20 +59,12 @@
         width: calc(50% - 12px);
         margin-right: 6px;
         margin-left: 6px;
-
-        &--img {
-            height: 60%;
-        }
     }
 
     @media screen and (min-width: 992px) and (max-width: 1440px) {
         width: calc(50% - 12px);
         margin-right: 6px;
         margin-left: 6px;
-
-        &--img {
-            height: 60%;
-        }
     }
 }
 
@@ -83,11 +84,7 @@
 
     @include restaurant__card;
     &--img {
-        height: 32%;
-
-        @media screen and (min-width: 768px) and (max-width: 1440px) {
-            height: 36%;
-        }
+        height: 70%;
     }
 }
 
