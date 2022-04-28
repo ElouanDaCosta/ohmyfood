@@ -62,10 +62,16 @@
         display: flex;
         width: 15%;
         font-size: 26px;
+        background: text;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: black;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 0.2px;
         i {
             &:hover {
-                animation: fadeIn 1s ease-in-out;
-                
+                /*animation: fadeIn 1s ease-in-out;*/
+                background-color: $color-tertiary;
             }
         }
 
@@ -86,7 +92,6 @@
         opacity: 0;
     }
     80% {
-        fill: $color-primary;
         opacity: 1;
     }
 

@@ -158,14 +158,24 @@
 
 @mixin menu-card--info {
     display: flex;
-    width: 90%;
-        flex-direction: column;
+    position: relative;
+    max-width: 80%;
+    width: 80%;
+    flex-direction: column;
         h5 {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 320px;
             font-size: 20px;
             font-weight: 700;
             margin:  12px 0 4px 12px;
         }
         h6 {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 300px;
             margin: 0 0 12px 12px;
             font-size: 14px;
             font-weight: 100;
@@ -173,12 +183,12 @@
     }
 
 @mixin menu-card--price {
-    width: 10%;
+    width: 20%;
     display: flex;
     align-self: flex-end;
     justify-content: center;
     h5 {
         font-size: 14px;
-        margin: 32px 10px 12px 0;
+        margin: 32px 0 12px 0;
     }
 }

@@ -53,22 +53,31 @@
             }
         }
         overflow: hidden;
-        &:hover {
-            .menu__list--item-1-checked {
-                transition: all 0.5s linear;
-                width: 20%;
-                
-            }
-            .menu__list--item-1-checked__icon i {
-                animation: 0.5s linear forwards checked__rotate;
-            }
-        }
         animation: menu__item 1s ease-out forwards;
         animation-delay: calc($anim-dur / $num-menu--items * $i);
         opacity: 0;
+
+        &:hover {
+            .menu__list--item {
+                @for $i from 1 through $num-menu--items {
+                    &-#{$i} {
+                        &-checked {
+                            transition: all 0.5s linear;
+                            width: 20%;
+                            /*min-width: 20%;*/
+                        }
+                        &-checked__icon i {
+                            animation: 0.5s linear forwards checked__rotate;
+                        }
+                    }
+                }
+            }
+        }
+
         }
     }
 }
+
 
 @keyframes menu__item {
     0% {
