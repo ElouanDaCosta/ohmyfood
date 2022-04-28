@@ -673,16 +673,18 @@ footer {
   display: flex;
   width: 15%;
   font-size: 26px;
+  overflow: hidden;
   background: text;
-  background-clip: text;
-  -webkit-background-clip: text;
+  background-clip: content;
+  -webkit-background-clip: content;
   color: black;
   -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-width: 1px;
 }
 .restaurant__title--like i:hover {
   /*animation: fadeIn 1s ease-in-out;*/
   background-color: #99E2D0;
+  transition: all;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__title--like {
