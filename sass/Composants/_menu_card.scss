@@ -30,14 +30,12 @@
             position: relative;
             width: 0%;
             height: 68px;
-            z-index: -10;
             display: flex;
             justify-content: flex-end;
             align-items: flex-end;
             align-self: flex-end;
             &__icon {
                 position: absolute;
-                z-index: -10;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -48,7 +46,6 @@
                 i {
                     font-size: 23px;
                     color: white;
-                    z-index: -1;
                 }
             }
         }

@@ -67,6 +67,17 @@ a {
   }
 }
 
+@keyframes heartfillIn {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 header {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 1px;
   height: 55px;
@@ -423,6 +434,26 @@ header {
   height: 50%;
   font-size: 30px;
 }
+.restaurant__card--info_like {
+  display: flex;
+  width: 15%;
+  font-size: 27px;
+  overflow: hidden;
+  background: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+}
+.restaurant__card--info_like i:hover {
+  background: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  animation: heartfillIn 1s ease-in-out forwards;
+  transition: all;
+}
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__card {
     width: calc(50% - 12px);
@@ -435,6 +466,9 @@ header {
     width: calc(50% - 12px);
     margin-right: 6px;
     margin-left: 6px;
+  }
+  .restaurant__card--info_like i {
+    margin-right: 20px;
   }
 }
 
@@ -449,6 +483,26 @@ header {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 1px;
   overflow: hidden;
 }
+.restaurant__card--bigger--info_like {
+  display: flex;
+  width: 15%;
+  font-size: 27px;
+  overflow: hidden;
+  background: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+}
+.restaurant__card--bigger--info_like i:hover {
+  background: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  animation: heartfillIn 1s ease-in-out forwards;
+  transition: all;
+}
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__card--bigger {
     width: calc(50% - 12px);
@@ -461,6 +515,9 @@ header {
     width: calc(50% - 12px);
     margin-right: 6px;
     margin-left: 6px;
+  }
+  .restaurant__card--bigger--info_like i {
+    margin-right: 20px;
   }
 }
 .restaurant__card--bigger--img {
@@ -672,18 +729,21 @@ footer {
 .restaurant__title--like {
   display: flex;
   width: 15%;
-  font-size: 26px;
+  font-size: 27px;
   overflow: hidden;
   background: text;
-  background-clip: content;
-  -webkit-background-clip: content;
-  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
 }
 .restaurant__title--like i:hover {
-  /*animation: fadeIn 1s ease-in-out;*/
-  background-color: #99E2D0;
+  background: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  animation: heartfillIn 1s ease-in-out forwards;
   transition: all;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -699,18 +759,6 @@ footer {
   }
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-    background-color: #9356DC;
-  }
-}
 .menu {
   font-family: "roboto";
 }
@@ -767,9 +815,11 @@ footer {
 .menu__list--item-1-info {
   display: flex;
   position: relative;
-  max-width: 80%;
   width: 80%;
   flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__list--item-1-info h5 {
   overflow: hidden;
@@ -821,7 +871,6 @@ footer {
   position: relative;
   width: 0%;
   height: 68px;
-  z-index: -10;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -829,7 +878,6 @@ footer {
 }
 .menu__list--item-1-checked__icon {
   position: absolute;
-  z-index: -10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -841,7 +889,6 @@ footer {
 .menu__list--item-1-checked__icon i {
   font-size: 23px;
   color: white;
-  z-index: -1;
 }
 .menu__list--item-1:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
@@ -939,9 +986,11 @@ footer {
 .menu__list--item-2-info {
   display: flex;
   position: relative;
-  max-width: 80%;
   width: 80%;
   flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__list--item-2-info h5 {
   overflow: hidden;
@@ -993,7 +1042,6 @@ footer {
   position: relative;
   width: 0%;
   height: 68px;
-  z-index: -10;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -1001,7 +1049,6 @@ footer {
 }
 .menu__list--item-2-checked__icon {
   position: absolute;
-  z-index: -10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1013,7 +1060,6 @@ footer {
 .menu__list--item-2-checked__icon i {
   font-size: 23px;
   color: white;
-  z-index: -1;
 }
 .menu__list--item-2:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
@@ -1111,9 +1157,11 @@ footer {
 .menu__list--item-3-info {
   display: flex;
   position: relative;
-  max-width: 80%;
   width: 80%;
   flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__list--item-3-info h5 {
   overflow: hidden;
@@ -1165,7 +1213,6 @@ footer {
   position: relative;
   width: 0%;
   height: 68px;
-  z-index: -10;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -1173,7 +1220,6 @@ footer {
 }
 .menu__list--item-3-checked__icon {
   position: absolute;
-  z-index: -10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1185,7 +1231,6 @@ footer {
 .menu__list--item-3-checked__icon i {
   font-size: 23px;
   color: white;
-  z-index: -1;
 }
 .menu__list--item-3:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
@@ -1283,9 +1328,11 @@ footer {
 .menu__list--item-4-info {
   display: flex;
   position: relative;
-  max-width: 80%;
   width: 80%;
   flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__list--item-4-info h5 {
   overflow: hidden;
@@ -1337,7 +1384,6 @@ footer {
   position: relative;
   width: 0%;
   height: 68px;
-  z-index: -10;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -1345,7 +1391,6 @@ footer {
 }
 .menu__list--item-4-checked__icon {
   position: absolute;
-  z-index: -10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1357,7 +1402,6 @@ footer {
 .menu__list--item-4-checked__icon i {
   font-size: 23px;
   color: white;
-  z-index: -1;
 }
 .menu__list--item-4:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
@@ -1455,9 +1499,11 @@ footer {
 .menu__list--item-5-info {
   display: flex;
   position: relative;
-  max-width: 80%;
   width: 80%;
   flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__list--item-5-info h5 {
   overflow: hidden;
@@ -1509,7 +1555,6 @@ footer {
   position: relative;
   width: 0%;
   height: 68px;
-  z-index: -10;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -1517,7 +1562,6 @@ footer {
 }
 .menu__list--item-5-checked__icon {
   position: absolute;
-  z-index: -10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1529,7 +1573,6 @@ footer {
 .menu__list--item-5-checked__icon i {
   font-size: 23px;
   color: white;
-  z-index: -1;
 }
 .menu__list--item-5:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
@@ -1627,9 +1670,11 @@ footer {
 .menu__list--item-6-info {
   display: flex;
   position: relative;
-  max-width: 80%;
   width: 80%;
   flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__list--item-6-info h5 {
   overflow: hidden;
@@ -1681,7 +1726,6 @@ footer {
   position: relative;
   width: 0%;
   height: 68px;
-  z-index: -10;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -1689,7 +1733,6 @@ footer {
 }
 .menu__list--item-6-checked__icon {
   position: absolute;
-  z-index: -10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1701,7 +1744,6 @@ footer {
 .menu__list--item-6-checked__icon i {
   font-size: 23px;
   color: white;
-  z-index: -1;
 }
 .menu__list--item-6:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
@@ -1799,9 +1841,11 @@ footer {
 .menu__list--item-7-info {
   display: flex;
   position: relative;
-  max-width: 80%;
   width: 80%;
   flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__list--item-7-info h5 {
   overflow: hidden;
@@ -1853,7 +1897,6 @@ footer {
   position: relative;
   width: 0%;
   height: 68px;
-  z-index: -10;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -1861,7 +1904,6 @@ footer {
 }
 .menu__list--item-7-checked__icon {
   position: absolute;
-  z-index: -10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1873,7 +1915,6 @@ footer {
 .menu__list--item-7-checked__icon i {
   font-size: 23px;
   color: white;
-  z-index: -1;
 }
 .menu__list--item-7:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
@@ -1971,9 +2012,11 @@ footer {
 .menu__list--item-8-info {
   display: flex;
   position: relative;
-  max-width: 80%;
   width: 80%;
   flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__list--item-8-info h5 {
   overflow: hidden;
@@ -2025,7 +2068,6 @@ footer {
   position: relative;
   width: 0%;
   height: 68px;
-  z-index: -10;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -2033,7 +2075,6 @@ footer {
 }
 .menu__list--item-8-checked__icon {
   position: absolute;
-  z-index: -10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2045,7 +2086,6 @@ footer {
 .menu__list--item-8-checked__icon i {
   font-size: 23px;
   color: white;
-  z-index: -1;
 }
 .menu__list--item-8:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
@@ -2143,9 +2183,11 @@ footer {
 .menu__list--item-9-info {
   display: flex;
   position: relative;
-  max-width: 80%;
   width: 80%;
   flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__list--item-9-info h5 {
   overflow: hidden;
@@ -2197,7 +2239,6 @@ footer {
   position: relative;
   width: 0%;
   height: 68px;
-  z-index: -10;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -2205,7 +2246,6 @@ footer {
 }
 .menu__list--item-9-checked__icon {
   position: absolute;
-  z-index: -10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2217,7 +2257,6 @@ footer {
 .menu__list--item-9-checked__icon i {
   font-size: 23px;
   color: white;
-  z-index: -1;
 }
 .menu__list--item-9:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
@@ -2315,9 +2354,11 @@ footer {
 .menu__list--item-10-info {
   display: flex;
   position: relative;
-  max-width: 80%;
   width: 80%;
   flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__list--item-10-info h5 {
   overflow: hidden;
@@ -2369,7 +2410,6 @@ footer {
   position: relative;
   width: 0%;
   height: 68px;
-  z-index: -10;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -2377,7 +2417,6 @@ footer {
 }
 .menu__list--item-10-checked__icon {
   position: absolute;
-  z-index: -10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2389,7 +2428,6 @@ footer {
 .menu__list--item-10-checked__icon i {
   font-size: 23px;
   color: white;
-  z-index: -1;
 }
 .menu__list--item-10:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;

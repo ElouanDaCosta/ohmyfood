@@ -123,6 +123,17 @@ a {
   }
 }
 
+@keyframes heartfillIn {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 header {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 1px;
   height: 55px;
@@ -479,6 +490,26 @@ header {
   height: 50%;
   font-size: 30px;
 }
+.restaurant__card--info_like {
+  display: flex;
+  width: 15%;
+  font-size: 27px;
+  overflow: hidden;
+  background: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+}
+.restaurant__card--info_like i:hover {
+  background: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  animation: heartfillIn 1s ease-in-out forwards;
+  transition: all;
+}
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__card {
     width: calc(50% - 12px);
@@ -491,6 +522,9 @@ header {
     width: calc(50% - 12px);
     margin-right: 6px;
     margin-left: 6px;
+  }
+  .restaurant__card--info_like i {
+    margin-right: 20px;
   }
 }
 
@@ -505,6 +539,26 @@ header {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 1px;
   overflow: hidden;
 }
+.restaurant__card--bigger--info_like {
+  display: flex;
+  width: 15%;
+  font-size: 27px;
+  overflow: hidden;
+  background: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+}
+.restaurant__card--bigger--info_like i:hover {
+  background: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  animation: heartfillIn 1s ease-in-out forwards;
+  transition: all;
+}
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__card--bigger {
     width: calc(50% - 12px);
@@ -517,6 +571,9 @@ header {
     width: calc(50% - 12px);
     margin-right: 6px;
     margin-left: 6px;
+  }
+  .restaurant__card--bigger--info_like i {
+    margin-right: 20px;
   }
 }
 .restaurant__card--bigger--img {

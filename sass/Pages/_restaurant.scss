@@ -54,6 +54,9 @@
 
 .restaurant__card {
     @include restaurant__card;
+    &--info_like {
+        @include heart
+    }
 
     @media screen and (min-width: 768px) and (max-width: 992px) {
         width: calc(50% - 12px);
@@ -65,10 +68,18 @@
         width: calc(50% - 12px);
         margin-right: 6px;
         margin-left: 6px;
+        &--info_like {
+            i {
+                margin-right: 20px;
+            }
+        }
     }
 }
 
 .restaurant__card--bigger {
+    &--info_like {
+        @include heart
+    }
 
     @media screen and (min-width: 768px) and (max-width: 992px) {
         width: calc(50% - 12px);
@@ -80,6 +91,11 @@
         width: calc(50% - 12px);
         margin-right: 6px;
         margin-left: 6px;
+        &--info_like {
+            i {
+                margin-right: 20px;
+            }
+        }
     }
 
     @include restaurant__card;

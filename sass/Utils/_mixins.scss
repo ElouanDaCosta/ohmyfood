@@ -159,9 +159,11 @@
 @mixin menu-card--info {
     display: flex;
     position: relative;
-    max-width: 80%;
     width: 80%;
     flex-direction: column;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
         h5 {
             overflow: hidden;
             text-overflow: ellipsis;
@@ -190,5 +192,29 @@
     h5 {
         font-size: 14px;
         margin: 32px 0 12px 0;
+    }
+}
+
+
+@mixin heart {
+    display: flex;
+    width: 15%;
+    font-size: 27px;
+    overflow: hidden;
+    background: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    i {
+        &:hover {
+            background: text;
+            background-clip: text;
+            -webkit-background-clip: text;
+            background-image: linear-gradient($color-secondary,$color-primary);
+            animation: heartfillIn 1s ease-in-out forwards;
+            transition: all;
+        }
     }
 }
