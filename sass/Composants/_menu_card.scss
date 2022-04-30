@@ -54,14 +54,18 @@
         animation-delay: calc($anim-dur / $num-menu--items * $i);
         opacity: 0;
 
+        &::before {
+            content: "";
+            animation: 0.5s checked__appearOut;
+        }
+
         &:hover {
             .menu__list--item {
                 @for $i from 1 through $num-menu--items {
                     &-#{$i} {
                         &-checked {
                             transition: all 0.5s linear;
-                            width: 20%;
-                            /*min-width: 20%;*/
+                            animation:  0.5s linear forwards checked__appearIn;
                         }
                         &-checked__icon i {
                             animation: 0.5s linear forwards checked__rotate;
@@ -105,3 +109,22 @@
         transform: rotateZ(360deg);
     }
 }
+
+@keyframes checked__appearIn {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 20%;
+    }
+}
+
+@keyframes checked__appearOut {
+    0% {
+        width: 20%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+

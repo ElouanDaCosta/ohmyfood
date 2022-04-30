@@ -195,11 +195,11 @@
     }
 }
 
-
 @mixin heart {
     display: flex;
     width: 15%;
     font-size: 27px;
+    padding-left: 2px;
     overflow: hidden;
     background: text;
     background-clip: text;
@@ -209,12 +209,17 @@
     -webkit-text-stroke-width: 2px;
     i {
         &:hover {
+            -webkit-text-stroke-color: $color-primary;
+        }
+
+        &:active {
             background: text;
             background-clip: text;
             -webkit-background-clip: text;
             background-image: linear-gradient($color-secondary,$color-primary);
             animation: heartfillIn 1s ease-in-out forwards;
             transition: all;
+            transform-origin: center 60%;
         }
     }
 }

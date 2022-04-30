@@ -438,6 +438,7 @@ header {
   display: flex;
   width: 15%;
   font-size: 27px;
+  padding-left: 2px;
   overflow: hidden;
   background: text;
   background-clip: text;
@@ -447,12 +448,16 @@ header {
   -webkit-text-stroke-width: 2px;
 }
 .restaurant__card--info_like i:hover {
+  -webkit-text-stroke-color: #9356DC;
+}
+.restaurant__card--info_like i:active {
   background: text;
   background-clip: text;
   -webkit-background-clip: text;
   background-image: linear-gradient(#FF79DA, #9356DC);
   animation: heartfillIn 1s ease-in-out forwards;
   transition: all;
+  transform-origin: center 60%;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__card {
@@ -487,6 +492,7 @@ header {
   display: flex;
   width: 15%;
   font-size: 27px;
+  padding-left: 2px;
   overflow: hidden;
   background: text;
   background-clip: text;
@@ -496,12 +502,16 @@ header {
   -webkit-text-stroke-width: 2px;
 }
 .restaurant__card--bigger--info_like i:hover {
+  -webkit-text-stroke-color: #9356DC;
+}
+.restaurant__card--bigger--info_like i:active {
   background: text;
   background-clip: text;
   -webkit-background-clip: text;
   background-image: linear-gradient(#FF79DA, #9356DC);
   animation: heartfillIn 1s ease-in-out forwards;
   transition: all;
+  transform-origin: center 60%;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__card--bigger {
@@ -730,6 +740,7 @@ footer {
   display: flex;
   width: 15%;
   font-size: 27px;
+  padding-left: 2px;
   overflow: hidden;
   background: text;
   background-clip: text;
@@ -739,12 +750,16 @@ footer {
   -webkit-text-stroke-width: 2px;
 }
 .restaurant__title--like i:hover {
+  -webkit-text-stroke-color: #9356DC;
+}
+.restaurant__title--like i:active {
   background: text;
   background-clip: text;
   -webkit-background-clip: text;
   background-image: linear-gradient(#FF79DA, #9356DC);
   animation: heartfillIn 1s ease-in-out forwards;
   transition: all;
+  transform-origin: center 60%;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__title--like {
@@ -890,82 +905,76 @@ footer {
   font-size: 23px;
   color: white;
 }
+.menu__list--item-1::before {
+  content: "";
+  animation: 0.5s checked__appearOut;
+}
 .menu__list--item-1:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-1:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-2-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-1:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-3-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-1:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-4-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-1:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-5-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-1:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-6-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-1:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-7-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-1:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-8-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-1:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-9-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-1:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-10-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-1:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -1061,82 +1070,76 @@ footer {
   font-size: 23px;
   color: white;
 }
+.menu__list--item-2::before {
+  content: "";
+  animation: 0.5s checked__appearOut;
+}
 .menu__list--item-2:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-2:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-2-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-2:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-3-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-2:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-4-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-2:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-5-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-2:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-6-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-2:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-7-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-2:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-8-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-2:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-9-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-2:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-10-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-2:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -1232,82 +1235,76 @@ footer {
   font-size: 23px;
   color: white;
 }
+.menu__list--item-3::before {
+  content: "";
+  animation: 0.5s checked__appearOut;
+}
 .menu__list--item-3:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-3:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-2-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-3:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-3-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-3:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-4-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-3:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-5-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-3:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-6-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-3:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-7-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-3:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-8-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-3:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-9-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-3:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-10-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-3:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -1403,82 +1400,76 @@ footer {
   font-size: 23px;
   color: white;
 }
+.menu__list--item-4::before {
+  content: "";
+  animation: 0.5s checked__appearOut;
+}
 .menu__list--item-4:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-4:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-2-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-4:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-3-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-4:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-4-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-4:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-5-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-4:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-6-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-4:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-7-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-4:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-8-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-4:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-9-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-4:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-10-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-4:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -1574,82 +1565,76 @@ footer {
   font-size: 23px;
   color: white;
 }
+.menu__list--item-5::before {
+  content: "";
+  animation: 0.5s checked__appearOut;
+}
 .menu__list--item-5:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-5:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-2-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-5:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-3-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-5:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-4-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-5:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-5-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-5:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-6-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-5:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-7-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-5:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-8-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-5:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-9-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-5:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-10-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-5:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -1745,82 +1730,76 @@ footer {
   font-size: 23px;
   color: white;
 }
+.menu__list--item-6::before {
+  content: "";
+  animation: 0.5s checked__appearOut;
+}
 .menu__list--item-6:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-6:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-2-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-6:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-3-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-6:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-4-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-6:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-5-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-6:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-6-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-6:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-7-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-6:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-8-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-6:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-9-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-6:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-10-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-6:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -1916,82 +1895,76 @@ footer {
   font-size: 23px;
   color: white;
 }
+.menu__list--item-7::before {
+  content: "";
+  animation: 0.5s checked__appearOut;
+}
 .menu__list--item-7:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-7:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-2-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-7:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-3-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-7:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-4-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-7:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-5-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-7:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-6-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-7:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-7-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-7:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-8-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-7:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-9-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-7:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-10-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-7:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -2087,82 +2060,76 @@ footer {
   font-size: 23px;
   color: white;
 }
+.menu__list--item-8::before {
+  content: "";
+  animation: 0.5s checked__appearOut;
+}
 .menu__list--item-8:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-8:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-2-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-8:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-3-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-8:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-4-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-8:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-5-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-8:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-6-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-8:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-7-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-8:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-8-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-8:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-9-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-8:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-10-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-8:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -2258,82 +2225,76 @@ footer {
   font-size: 23px;
   color: white;
 }
+.menu__list--item-9::before {
+  content: "";
+  animation: 0.5s checked__appearOut;
+}
 .menu__list--item-9:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-9:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-2-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-9:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-3-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-9:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-4-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-9:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-5-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-9:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-6-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-9:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-7-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-9:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-8-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-9:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-9-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-9:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-10-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-9:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -2429,82 +2390,76 @@ footer {
   font-size: 23px;
   color: white;
 }
+.menu__list--item-10::before {
+  content: "";
+  animation: 0.5s checked__appearOut;
+}
 .menu__list--item-10:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-10:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-2-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-10:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-3-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-10:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-4-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-10:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-5-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-10:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-6-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-10:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-7-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-10:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-8-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-10:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-9-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-10:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-10-checked {
   transition: all 0.5s linear;
-  width: 20%;
-  /*min-width: 20%;*/
+  animation: 0.5s linear forwards checked__appearIn;
 }
 .menu__list--item-10:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -2534,6 +2489,22 @@ footer {
   }
   100% {
     transform: rotateZ(360deg);
+  }
+}
+@keyframes checked__appearIn {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes checked__appearOut {
+  0% {
+    width: 20%;
+  }
+  100% {
+    width: 0%;
   }
 }
 

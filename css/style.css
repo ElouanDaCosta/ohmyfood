@@ -494,6 +494,7 @@ header {
   display: flex;
   width: 15%;
   font-size: 27px;
+  padding-left: 2px;
   overflow: hidden;
   background: text;
   background-clip: text;
@@ -503,12 +504,16 @@ header {
   -webkit-text-stroke-width: 2px;
 }
 .restaurant__card--info_like i:hover {
+  -webkit-text-stroke-color: #9356DC;
+}
+.restaurant__card--info_like i:active {
   background: text;
   background-clip: text;
   -webkit-background-clip: text;
   background-image: linear-gradient(#FF79DA, #9356DC);
   animation: heartfillIn 1s ease-in-out forwards;
   transition: all;
+  transform-origin: center 60%;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__card {
@@ -543,6 +548,7 @@ header {
   display: flex;
   width: 15%;
   font-size: 27px;
+  padding-left: 2px;
   overflow: hidden;
   background: text;
   background-clip: text;
@@ -552,12 +558,16 @@ header {
   -webkit-text-stroke-width: 2px;
 }
 .restaurant__card--bigger--info_like i:hover {
+  -webkit-text-stroke-color: #9356DC;
+}
+.restaurant__card--bigger--info_like i:active {
   background: text;
   background-clip: text;
   -webkit-background-clip: text;
   background-image: linear-gradient(#FF79DA, #9356DC);
   animation: heartfillIn 1s ease-in-out forwards;
   transition: all;
+  transform-origin: center 60%;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__card--bigger {
