@@ -28,10 +28,12 @@
 
 .restaurant__card > a {
     height: 100%;
+    z-index: 1;
 }
 
 .restaurant__card--bigger > a {
     height: 100%;
+    z-index: 1;
 }
 
 .restaurant__list {

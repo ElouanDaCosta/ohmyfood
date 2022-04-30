@@ -27,7 +27,7 @@ a {
   flex-direction: column;
   background-color: rgb(255, 255, 255);
   opacity: 0;
-  animation: transition 3s cubic-bezier(1, -0.29, 1, -0.89);
+  animation: transition 2s cubic-bezier(1, -0.29, 1, -0.89);
 }
 .loading__spinner .spinner {
   position: absolute;
@@ -83,6 +83,7 @@ a {
   font-family: "roboto", sans-serif;
   margin-bottom: 46px;
   font-size: 16px;
+  transition: all 0.3s ease-in-out;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .button--reservation {
@@ -94,6 +95,9 @@ a {
     font-size: 23px;
     height: 60px;
   }
+}
+.button--reservation:hover {
+  transform: scale(1.1);
 }
 .button--command {
   display: flex;
@@ -110,6 +114,7 @@ a {
   font-family: "roboto";
   width: 40%;
   font-size: 16px;
+  transition: all 0.3s ease-in-out;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .button--command {
@@ -121,6 +126,9 @@ a {
     width: 20%;
     font-size: 22px;
   }
+}
+.button--command:hover {
+  transform: scale(1.1);
 }
 
 @keyframes heartfillIn {
@@ -414,10 +422,12 @@ header {
 
 .restaurant__card > a {
   height: 100%;
+  z-index: 1;
 }
 
 .restaurant__card--bigger > a {
   height: 100%;
+  z-index: 1;
 }
 
 .restaurant__list {
@@ -484,6 +494,7 @@ header {
 }
 .restaurant__card--info_like {
   display: flex;
+  position: relative;
   align-self: center;
   justify-content: center;
   width: 20%;
@@ -620,6 +631,7 @@ header {
 }
 .restaurant__card--bigger--info_like {
   display: flex;
+  position: relative;
   align-self: center;
   justify-content: center;
   width: 20%;

@@ -27,6 +27,7 @@ a {
   font-family: "roboto", sans-serif;
   margin-bottom: 46px;
   font-size: 16px;
+  transition: all 0.3s ease-in-out;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .button--reservation {
@@ -38,6 +39,9 @@ a {
     font-size: 23px;
     height: 60px;
   }
+}
+.button--reservation:hover {
+  transform: scale(1.1);
 }
 .button--command {
   display: flex;
@@ -54,6 +58,7 @@ a {
   font-family: "roboto";
   width: 40%;
   font-size: 16px;
+  transition: all 0.3s ease-in-out;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .button--command {
@@ -65,6 +70,9 @@ a {
     width: 20%;
     font-size: 22px;
   }
+}
+.button--command:hover {
+  transform: scale(1.1);
 }
 
 @keyframes heartfillIn {
@@ -358,10 +366,12 @@ header {
 
 .restaurant__card > a {
   height: 100%;
+  z-index: 1;
 }
 
 .restaurant__card--bigger > a {
   height: 100%;
+  z-index: 1;
 }
 
 .restaurant__list {
@@ -428,6 +438,7 @@ header {
 }
 .restaurant__card--info_like {
   display: flex;
+  position: relative;
   align-self: center;
   justify-content: center;
   width: 20%;
@@ -564,6 +575,7 @@ header {
 }
 .restaurant__card--bigger--info_like {
   display: flex;
+  position: relative;
   align-self: center;
   justify-content: center;
   width: 20%;
@@ -648,12 +660,12 @@ footer {
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .top_picture {
-    height: 50%;
+    height: 55%;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {
   .top_picture {
-    height: 75%;
+    height: 80%;
   }
 }
 
@@ -914,10 +926,6 @@ footer {
   font-size: 23px;
   color: white;
 }
-.menu__list--item-1::before {
-  content: "";
-  animation: 0.5s checked__appearOut;
-}
 .menu__list--item-1:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
   animation: 0.5s linear forwards checked__appearIn;
@@ -1078,10 +1086,6 @@ footer {
 .menu__list--item-2-checked__icon i {
   font-size: 23px;
   color: white;
-}
-.menu__list--item-2::before {
-  content: "";
-  animation: 0.5s checked__appearOut;
 }
 .menu__list--item-2:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
@@ -1244,10 +1248,6 @@ footer {
   font-size: 23px;
   color: white;
 }
-.menu__list--item-3::before {
-  content: "";
-  animation: 0.5s checked__appearOut;
-}
 .menu__list--item-3:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
   animation: 0.5s linear forwards checked__appearIn;
@@ -1408,10 +1408,6 @@ footer {
 .menu__list--item-4-checked__icon i {
   font-size: 23px;
   color: white;
-}
-.menu__list--item-4::before {
-  content: "";
-  animation: 0.5s checked__appearOut;
 }
 .menu__list--item-4:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
@@ -1574,10 +1570,6 @@ footer {
   font-size: 23px;
   color: white;
 }
-.menu__list--item-5::before {
-  content: "";
-  animation: 0.5s checked__appearOut;
-}
 .menu__list--item-5:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
   animation: 0.5s linear forwards checked__appearIn;
@@ -1738,10 +1730,6 @@ footer {
 .menu__list--item-6-checked__icon i {
   font-size: 23px;
   color: white;
-}
-.menu__list--item-6::before {
-  content: "";
-  animation: 0.5s checked__appearOut;
 }
 .menu__list--item-6:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
@@ -1904,10 +1892,6 @@ footer {
   font-size: 23px;
   color: white;
 }
-.menu__list--item-7::before {
-  content: "";
-  animation: 0.5s checked__appearOut;
-}
 .menu__list--item-7:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
   animation: 0.5s linear forwards checked__appearIn;
@@ -2068,10 +2052,6 @@ footer {
 .menu__list--item-8-checked__icon i {
   font-size: 23px;
   color: white;
-}
-.menu__list--item-8::before {
-  content: "";
-  animation: 0.5s checked__appearOut;
 }
 .menu__list--item-8:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
@@ -2234,10 +2214,6 @@ footer {
   font-size: 23px;
   color: white;
 }
-.menu__list--item-9::before {
-  content: "";
-  animation: 0.5s checked__appearOut;
-}
 .menu__list--item-9:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
   animation: 0.5s linear forwards checked__appearIn;
@@ -2399,10 +2375,6 @@ footer {
   font-size: 23px;
   color: white;
 }
-.menu__list--item-10::before {
-  content: "";
-  animation: 0.5s checked__appearOut;
-}
 .menu__list--item-10:hover .menu__list--item-1-checked {
   transition: all 0.5s linear;
   animation: 0.5s linear forwards checked__appearIn;
@@ -2506,14 +2478,6 @@ footer {
   }
   100% {
     width: 20%;
-  }
-}
-@keyframes checked__appearOut {
-  0% {
-    width: 20%;
-  }
-  100% {
-    width: 0%;
   }
 }
 
