@@ -653,7 +653,7 @@ footer {
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {
   .top_picture {
-    height: 60%;
+    height: 75%;
   }
 }
 
@@ -667,9 +667,18 @@ footer {
   height: 100%;
   object-fit: cover;
 }
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .top_picture--bigger {
     height: 65%;
+  }
+  .top_picture--bigger img {
+    height: 95%;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .top_picture--bigger {
+    height: 80%;
   }
   .top_picture--bigger img {
     height: 95%;
