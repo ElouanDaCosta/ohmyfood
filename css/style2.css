@@ -913,6 +913,7 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
   align-self: flex-end;
+  transition: all 0.5s linear;
 }
 .menu__list--item-1-checked__icon {
   position: absolute;
@@ -929,81 +930,61 @@ footer {
   color: white;
 }
 .menu__list--item-1:hover .menu__list--item-1-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-1:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-2-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-1:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-3-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-1:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-4-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-1:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-5-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-1:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-6-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-1:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-7-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-1:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-8-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-1:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-9-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-1:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-1:hover .menu__list--item-10-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-1:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -1084,6 +1065,7 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
   align-self: flex-end;
+  transition: all 0.5s linear;
 }
 .menu__list--item-2-checked__icon {
   position: absolute;
@@ -1100,81 +1082,61 @@ footer {
   color: white;
 }
 .menu__list--item-2:hover .menu__list--item-1-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-2:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-2-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-2:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-3-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-2:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-4-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-2:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-5-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-2:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-6-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-2:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-7-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-2:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-8-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-2:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-9-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-2:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-2:hover .menu__list--item-10-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-2:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -1255,6 +1217,7 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
   align-self: flex-end;
+  transition: all 0.5s linear;
 }
 .menu__list--item-3-checked__icon {
   position: absolute;
@@ -1271,81 +1234,61 @@ footer {
   color: white;
 }
 .menu__list--item-3:hover .menu__list--item-1-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-3:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-2-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-3:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-3-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-3:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-4-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-3:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-5-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-3:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-6-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-3:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-7-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-3:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-8-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-3:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-9-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-3:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-3:hover .menu__list--item-10-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-3:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -1426,6 +1369,7 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
   align-self: flex-end;
+  transition: all 0.5s linear;
 }
 .menu__list--item-4-checked__icon {
   position: absolute;
@@ -1442,81 +1386,61 @@ footer {
   color: white;
 }
 .menu__list--item-4:hover .menu__list--item-1-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-4:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-2-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-4:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-3-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-4:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-4-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-4:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-5-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-4:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-6-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-4:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-7-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-4:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-8-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-4:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-9-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-4:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-4:hover .menu__list--item-10-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-4:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -1597,6 +1521,7 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
   align-self: flex-end;
+  transition: all 0.5s linear;
 }
 .menu__list--item-5-checked__icon {
   position: absolute;
@@ -1613,81 +1538,61 @@ footer {
   color: white;
 }
 .menu__list--item-5:hover .menu__list--item-1-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-5:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-2-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-5:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-3-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-5:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-4-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-5:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-5-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-5:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-6-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-5:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-7-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-5:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-8-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-5:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-9-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-5:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-5:hover .menu__list--item-10-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-5:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -1768,6 +1673,7 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
   align-self: flex-end;
+  transition: all 0.5s linear;
 }
 .menu__list--item-6-checked__icon {
   position: absolute;
@@ -1784,81 +1690,61 @@ footer {
   color: white;
 }
 .menu__list--item-6:hover .menu__list--item-1-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-6:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-2-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-6:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-3-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-6:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-4-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-6:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-5-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-6:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-6-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-6:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-7-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-6:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-8-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-6:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-9-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-6:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-6:hover .menu__list--item-10-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-6:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -1939,6 +1825,7 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
   align-self: flex-end;
+  transition: all 0.5s linear;
 }
 .menu__list--item-7-checked__icon {
   position: absolute;
@@ -1955,81 +1842,61 @@ footer {
   color: white;
 }
 .menu__list--item-7:hover .menu__list--item-1-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-7:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-2-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-7:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-3-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-7:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-4-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-7:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-5-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-7:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-6-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-7:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-7-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-7:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-8-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-7:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-9-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-7:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-7:hover .menu__list--item-10-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-7:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -2110,6 +1977,7 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
   align-self: flex-end;
+  transition: all 0.5s linear;
 }
 .menu__list--item-8-checked__icon {
   position: absolute;
@@ -2126,81 +1994,61 @@ footer {
   color: white;
 }
 .menu__list--item-8:hover .menu__list--item-1-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-8:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-2-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-8:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-3-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-8:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-4-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-8:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-5-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-8:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-6-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-8:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-7-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-8:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-8-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-8:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-9-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-8:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-8:hover .menu__list--item-10-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-8:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -2281,6 +2129,7 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
   align-self: flex-end;
+  transition: all 0.5s linear;
 }
 .menu__list--item-9-checked__icon {
   position: absolute;
@@ -2297,81 +2146,61 @@ footer {
   color: white;
 }
 .menu__list--item-9:hover .menu__list--item-1-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-9:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-2-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-9:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-3-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-9:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-4-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-9:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-5-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-9:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-6-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-9:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-7-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-9:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-8-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-9:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-9-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-9:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-9:hover .menu__list--item-10-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-9:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -2452,6 +2281,7 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
   align-self: flex-end;
+  transition: all 0.5s linear;
 }
 .menu__list--item-10-checked__icon {
   position: absolute;
@@ -2468,81 +2298,61 @@ footer {
   color: white;
 }
 .menu__list--item-10:hover .menu__list--item-1-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-10:hover .menu__list--item-1-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-2-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-10:hover .menu__list--item-2-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-3-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-10:hover .menu__list--item-3-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-4-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-10:hover .menu__list--item-4-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-5-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-10:hover .menu__list--item-5-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-6-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-10:hover .menu__list--item-6-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-7-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-10:hover .menu__list--item-7-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-8-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-10:hover .menu__list--item-8-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-9-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-10:hover .menu__list--item-9-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
 }
 .menu__list--item-10:hover .menu__list--item-10-checked {
-  transform-origin: right;
-  transition: all 0.5s linear;
-  animation: 0.5s linear forwards checked__appearIn;
+  width: 20%;
 }
 .menu__list--item-10:hover .menu__list--item-10-checked__icon i {
   animation: 0.5s linear forwards checked__rotate;
@@ -2572,22 +2382,6 @@ footer {
   }
   100% {
     transform: rotateZ(360deg);
-  }
-}
-@keyframes checked__appearIn {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 20%;
-  }
-}
-@keyframes checked__appearIn-icon {
-  0% {
-    width: 50%;
-  }
-  100% {
-    width: 100%;
   }
 }
 

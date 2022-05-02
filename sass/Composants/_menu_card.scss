@@ -34,6 +34,7 @@
             justify-content: flex-end;
             align-items: flex-end;
             align-self: flex-end;
+            transition: all 0.5s linear;
             &__icon {
                 position: absolute;
                 display: flex;
@@ -58,9 +59,7 @@
                 @for $i from 1 through $num-menu--items {
                     &-#{$i} {
                         &-checked {
-                            transform-origin: right;
-                            transition: all 0.5s linear;
-                            animation:  0.5s linear forwards checked__appearIn;
+                            width: 20%;
                         }
                         &-checked__icon {
                             i {
@@ -105,23 +104,5 @@
     }
     100% {
         transform: rotateZ(360deg);
-    }
-}
-
-@keyframes checked__appearIn {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 20%;
-    }
-}
-
-@keyframes checked__appearIn-icon {
-    0% {
-        width: 50%;
-    }
-    100% {
-        width: 100%;
     }
 }
