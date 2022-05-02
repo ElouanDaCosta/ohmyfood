@@ -11,8 +11,14 @@
     &__button{
         @include working__card;
         &:hover {
+            .working__button--icon {
+                i {
+                    color: $color-primary;
+                }
+            }
             background-color: lighten($color: $color-primary, $amount: 32%);
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 1px;
+            
         }
 }
     &__button--number_icon {
@@ -41,4 +47,3 @@
         }
     }
 }
-

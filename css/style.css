@@ -348,6 +348,9 @@ header {
   background-color: #e9ddf8;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 1px;
 }
+.working__button:hover .working__button--icon i {
+  color: #9356DC;
+}
 .working__button--number_icon {
   display: flex;
   position: relative;
@@ -367,9 +370,6 @@ header {
   color: grey;
   font-size: 20px;
   margin-right: 20px;
-}
-.working__button--icon i:hover {
-  color: #9356DC;
 }
 .working__button--text h5 {
   font-size: 18px;
@@ -420,16 +420,14 @@ header {
   margin: 60px 0 24px 20px;
 }
 
-.restaurant__card > a {
-  height: 100%;
-  z-index: 1;
-}
-
-.restaurant__card--bigger > a {
-  height: 100%;
-  z-index: 1;
-}
-
+/*.restaurant__card > a {
+    height: 100%;
+    z-index: 1;
+}*/
+/*.restaurant__card--bigger > a {
+    height: 100%;
+    z-index: 1;
+}*/
 .restaurant__list {
   padding: 0;
   margin: 0 20px 0 20px;
@@ -515,9 +513,6 @@ header {
   -webkit-text-stroke-width: 2px;
 }
 .restaurant__card--info_like i:hover {
-  -webkit-text-stroke-color: #9356DC;
-}
-.restaurant__card--info_like i:active {
   background: text;
   background-clip: text;
   -webkit-background-clip: text;
@@ -525,6 +520,10 @@ header {
   animation: heartfillIn 1s ease-in-out forwards;
   transition: all;
   transform-origin: center 60%;
+}
+.restaurant__card--info_like i:active {
+  transition: all 0.2s;
+  transform: scale(1.2);
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__card {
@@ -569,9 +568,6 @@ header {
   -webkit-text-stroke-width: 2px;
 }
 .restaurant__card--bigger--info_like i:hover {
-  -webkit-text-stroke-color: #9356DC;
-}
-.restaurant__card--bigger--info_like i:active {
   background: text;
   background-clip: text;
   -webkit-background-clip: text;
@@ -579,6 +575,10 @@ header {
   animation: heartfillIn 1s ease-in-out forwards;
   transition: all;
   transform-origin: center 60%;
+}
+.restaurant__card--bigger--info_like i:active {
+  transition: all 0.2s;
+  transform: scale(1.2);
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__card--bigger {

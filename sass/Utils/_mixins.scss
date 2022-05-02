@@ -47,9 +47,6 @@
         color: grey;
         font-size: 20px;
         margin-right: 20px;
-        &:hover {
-        color: $color-primary;
-    }
 }
 }
 
@@ -210,10 +207,6 @@
     -webkit-text-stroke-width: 2px;
     i {
         &:hover {
-            -webkit-text-stroke-color: $color-primary;
-        }
-
-        &:active {
             background: text;
             background-clip: text;
             -webkit-background-clip: text;
@@ -221,6 +214,11 @@
             animation: heartfillIn 1s ease-in-out forwards;
             transition: all;
             transform-origin: center 60%;
+        }
+
+        &:active {
+            transition: all 0.2s;
+            transform: scale(1.2);
         }
     }
 }

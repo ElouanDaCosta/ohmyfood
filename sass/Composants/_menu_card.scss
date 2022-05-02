@@ -58,11 +58,15 @@
                 @for $i from 1 through $num-menu--items {
                     &-#{$i} {
                         &-checked {
+                            transform-origin: right;
                             transition: all 0.5s linear;
                             animation:  0.5s linear forwards checked__appearIn;
                         }
-                        &-checked__icon i {
-                            animation: 0.5s linear forwards checked__rotate;
+                        &-checked__icon {
+                            i {
+                                animation: 0.5s linear forwards checked__rotate;
+                            }
+                            
                         }
                     }
                 }
@@ -71,6 +75,7 @@
         }
     }
 }
+
 
 
 @keyframes menu__item {
@@ -109,5 +114,14 @@
     }
     100% {
         width: 20%;
+    }
+}
+
+@keyframes checked__appearIn-icon {
+    0% {
+        width: 50%;
+    }
+    100% {
+        width: 100%;
     }
 }
