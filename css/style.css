@@ -505,7 +505,7 @@ header {
   font-size: 27px;
   padding-left: 2px;
   overflow: hidden;
-  background: text;
+  background: fixed;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -513,7 +513,7 @@ header {
   -webkit-text-stroke-width: 2px;
 }
 .restaurant__card--info_like i:hover {
-  background: text;
+  background: fixed;
   background-clip: text;
   -webkit-background-clip: text;
   background-image: linear-gradient(#FF79DA, #9356DC);
@@ -560,7 +560,7 @@ header {
   font-size: 27px;
   padding-left: 2px;
   overflow: hidden;
-  background: text;
+  background: fixed;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -568,7 +568,7 @@ header {
   -webkit-text-stroke-width: 2px;
 }
 .restaurant__card--bigger--info_like i:hover {
-  background: text;
+  background: fixed;
   background-clip: text;
   -webkit-background-clip: text;
   background-image: linear-gradient(#FF79DA, #9356DC);

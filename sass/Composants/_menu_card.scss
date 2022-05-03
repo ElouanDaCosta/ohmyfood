@@ -18,7 +18,7 @@
         }
 
         @media screen and (min-width: 992px) and (max-width: 1440px) {
-            width: 15%;
+
             h5 {
             font-size: 18px;
             margin: 4px 10px 10px 10px;
@@ -100,7 +100,7 @@
 
 @keyframes checked__rotate {
     0% {
-        transform: rotateZ(90);
+        transform: rotateZ(90deg);
     }
     100% {
         transform: rotateZ(360deg);

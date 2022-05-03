@@ -449,7 +449,7 @@ header {
   font-size: 27px;
   padding-left: 2px;
   overflow: hidden;
-  background: text;
+  background: fixed;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -457,7 +457,7 @@ header {
   -webkit-text-stroke-width: 2px;
 }
 .restaurant__card--info_like i:hover {
-  background: text;
+  background: fixed;
   background-clip: text;
   -webkit-background-clip: text;
   background-image: linear-gradient(#FF79DA, #9356DC);
@@ -504,7 +504,7 @@ header {
   font-size: 27px;
   padding-left: 2px;
   overflow: hidden;
-  background: text;
+  background: fixed;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -512,7 +512,7 @@ header {
   -webkit-text-stroke-width: 2px;
 }
 .restaurant__card--bigger--info_like i:hover {
-  background: text;
+  background: fixed;
   background-clip: text;
   -webkit-background-clip: text;
   background-image: linear-gradient(#FF79DA, #9356DC);
@@ -738,12 +738,12 @@ footer {
   margin-top: 34px;
   align-items: baseline;
 }
-.restaurant__title h1 {
+.restaurant__title h2 {
   width: 85%;
   font-family: "shrikhand";
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 500;
-  margin: 0px 0 10px 20px;
+  margin: 0px 0 10px 40px;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .restaurant__title h1 {
@@ -764,7 +764,7 @@ footer {
   font-size: 27px;
   padding-left: 2px;
   overflow: hidden;
-  background: text;
+  background: fixed;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -772,7 +772,7 @@ footer {
   -webkit-text-stroke-width: 2px;
 }
 .restaurant__title--like i:hover {
-  background: text;
+  background: fixed;
   background-clip: text;
   -webkit-background-clip: text;
   background-image: linear-gradient(#FF79DA, #9356DC);
@@ -897,9 +897,6 @@ footer {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {
-  .menu__list--item-1-price {
-    width: 15%;
-  }
   .menu__list--item-1-price h5 {
     font-size: 18px;
     margin: 4px 10px 10px 10px;
@@ -1049,9 +1046,6 @@ footer {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {
-  .menu__list--item-2-price {
-    width: 15%;
-  }
   .menu__list--item-2-price h5 {
     font-size: 18px;
     margin: 4px 10px 10px 10px;
@@ -1201,9 +1195,6 @@ footer {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {
-  .menu__list--item-3-price {
-    width: 15%;
-  }
   .menu__list--item-3-price h5 {
     font-size: 18px;
     margin: 4px 10px 10px 10px;
@@ -1353,9 +1344,6 @@ footer {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {
-  .menu__list--item-4-price {
-    width: 15%;
-  }
   .menu__list--item-4-price h5 {
     font-size: 18px;
     margin: 4px 10px 10px 10px;
@@ -1505,9 +1493,6 @@ footer {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {
-  .menu__list--item-5-price {
-    width: 15%;
-  }
   .menu__list--item-5-price h5 {
     font-size: 18px;
     margin: 4px 10px 10px 10px;
@@ -1657,9 +1642,6 @@ footer {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {
-  .menu__list--item-6-price {
-    width: 15%;
-  }
   .menu__list--item-6-price h5 {
     font-size: 18px;
     margin: 4px 10px 10px 10px;
@@ -1809,9 +1791,6 @@ footer {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {
-  .menu__list--item-7-price {
-    width: 15%;
-  }
   .menu__list--item-7-price h5 {
     font-size: 18px;
     margin: 4px 10px 10px 10px;
@@ -1961,9 +1940,6 @@ footer {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {
-  .menu__list--item-8-price {
-    width: 15%;
-  }
   .menu__list--item-8-price h5 {
     font-size: 18px;
     margin: 4px 10px 10px 10px;
@@ -2113,9 +2089,6 @@ footer {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {
-  .menu__list--item-9-price {
-    width: 15%;
-  }
   .menu__list--item-9-price h5 {
     font-size: 18px;
     margin: 4px 10px 10px 10px;
@@ -2265,9 +2238,6 @@ footer {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {
-  .menu__list--item-10-price {
-    width: 15%;
-  }
   .menu__list--item-10-price h5 {
     font-size: 18px;
     margin: 4px 10px 10px 10px;
@@ -2378,7 +2348,7 @@ footer {
 }
 @keyframes checked__rotate {
   0% {
-    transform: rotateZ(90);
+    transform: rotateZ(90deg);
   }
   100% {
     transform: rotateZ(360deg);

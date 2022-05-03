@@ -199,7 +199,7 @@
     font-size: 27px;
     padding-left: 2px;
     overflow: hidden;
-    background: text;
+    background: fixed;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -207,7 +207,7 @@
     -webkit-text-stroke-width: 2px;
     i {
         &:hover {
-            background: text;
+            background: fixed;
             background-clip: text;
             -webkit-background-clip: text;
             background-image: linear-gradient($color-secondary,$color-primary);
