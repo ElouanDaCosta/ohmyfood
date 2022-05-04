@@ -446,7 +446,7 @@ header {
 .restaurant__card--info_like {
   display: flex;
   width: 15%;
-  font-size: 27px;
+  font-size: 30px;
   padding-left: 2px;
   overflow: hidden;
   background: fixed;
@@ -483,7 +483,7 @@ header {
     margin-left: 6px;
   }
   .restaurant__card--info_like i {
-    margin-right: 20px;
+    margin-right: 10px;
   }
 }
 
@@ -501,7 +501,7 @@ header {
 .restaurant__card--bigger--info_like {
   display: flex;
   width: 15%;
-  font-size: 27px;
+  font-size: 30px;
   padding-left: 2px;
   overflow: hidden;
   background: fixed;
@@ -538,7 +538,7 @@ header {
     margin-left: 6px;
   }
   .restaurant__card--bigger--info_like i {
-    margin-right: 20px;
+    margin-right: 10px;
   }
 }
 .restaurant__card--bigger--img {
@@ -761,7 +761,7 @@ footer {
   border: none;
   display: flex;
   width: 15%;
-  font-size: 27px;
+  font-size: 30px;
   padding-left: 2px;
   overflow: hidden;
   background: fixed;
